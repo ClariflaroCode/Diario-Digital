@@ -1,0 +1,189 @@
+h1{
+    font-size: 60px;
+    color:#6D2323;
+    text-decoration:overline underline;
+    text-align: center;
+    font-weight: 900;
+}
+h1,h2,h3{
+    font-family:"Cinzel Decorative";
+
+}
+img {
+    width: 50%;
+    display: block;
+}
+
+h2{
+    color:#6D2323;
+    margin: 0px;
+    font-weight: 900;
+}
+h3{
+    color: #A31D1D;
+}
+body{
+    
+    background-color: #FEF9E1;
+}
+.content {
+    margin:50px;
+    padding: 50px;
+    background-color: #ede3cd;
+    line-height: 30px;
+
+}
+.section {
+    /*
+    border: dotted;
+    border-color: #E5D0AC;*/
+    border-width: 5px 5px 5px 0px;
+    border-style: inset;
+    border-color: #E5D0AC;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 30%;
+    height: 30%;
+    margin: 8px;
+    
+}
+p{
+    color: #5D2323;
+    font-family: "EB Garamond";
+}
+.resaltado {
+    font-style: italic;
+    font-weight: bolder;
+    box-sizing: border-box;
+    white-space: pre-line; /*RESPETA LOS SALTOS DE LINEA*/
+}
+/*
+h4{
+    font-size: 15px;
+    font-style: italic;
+    color: #A31D1D;
+    background-color: #E5D0AC;
+    text-align: center;
+}*/
+nav{
+    /*background-color: #E5D0AC;*/
+    background-color: #6D2323;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border-bottom: 4px solid #5D2323;
+    border-top: 4px solid #5D2323;
+
+}
+.menu-opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+.menu-opciones_item a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px #200000;
+    font-weight: 700;
+}
+.menu-opciones_item {
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px  #200000;
+    font-weight: 700;
+
+}
+.footer {
+    background-color: #6D2323;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 4px solid #5D2323;
+    border-top: 4px solid #5D2323;
+    color: whitesmoke;
+    text-shadow: 2px 2px 3px  #200000;
+    font-weight: 700;
+    font-family: "EB Garamond";
+
+}
+.catalogo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portada-noticia{
+    width: 100%;
+}
+.portada-animal{
+    border: 8px;
+    border-style: inset;
+    border-color: rgba(68,54,39);
+    height: 90%;
+    width: 90%;
+}
+.animales {
+    border-left:5px dashed#E5D0AC;
+    padding: 30px;
+}
+.index-noticias-catalogo-aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.novelas-capitulo_del_dia{
+    display: flex;
+    flex-wrap: wrap;
+} 
+.separador {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #5D2323;
+    padding: 5px;  
+    margin: 10px 0px;
+}
+.separador h2{
+    color: whitesmoke;    
+}
+.artistas-locales{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tabla-feriados_columna  {
+    padding: 6px;
+    color: #444;
+    border: 0px 5px;
+    border-style: solid;
+    border-color: rgb(241, 213, 184); 
+    
+}
+.tabla-feriados_header {
+    text-align: center;
+    padding: 6px;
+
+}
+.tabla-feriados{
+    border: 2px solid #5D2323;
+    padding: 0px 20px 20px 20px;
+}
+.historietas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.historietas img{
+    margin: 20px;
+}
+.epigrafe{
+    text-align: center;
+}

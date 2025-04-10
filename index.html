@@ -1,0 +1,150 @@
+<!--
+AVANZADO
+Implementar cada noticia del Diario Digital en una página diferente en donde el lector podrá leer la noticia completa.
+Importante: Cada noticia independiente debe respetar la estructura principal del DIario, es decir, tener el nombre 
+del periódico y el pie de página al igual que la página principal.
+Las noticias deben tener imágenes y al menos una debe tener una lista.
+En alguna de las noticias que tengan varios párrafos, aplicar un estilo particular y diferente a solo uno de ellos.
+Aplicar estilos al sitio para darle una imagen corporativa. Cada una de las páginas debe tener una 
+imagen visual unificada. Asigne dentro del sitio colores a las fuentes, diversos  tipos de fuentes, 
+tamaños y estilos de texto. Utilice tamaños relativos de fuentes  en las diferentes secciones del sitio.
+-->
+<!--
+Agregar una imagen a cada noticia de la página principal y crear un hipervínculo para relacionar también las imágenes con la noticia completa..
+Agregar en alguna de las noticias un link externo a cualquier sitio de internet que se abra en una pestaña nueva
+
+-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Diario Digital</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Diario Digital</h1>
+        <header class="header-principal">
+            <nav class="nav-principal">
+                <ul class="menu-opciones">
+                    <li class="menu-opciones_item"><a href="pronostico.html">Pronostico</a></li>
+                    <li class="menu-opciones_item"><a href="historietas.html">Historietas</a></li>
+                    <li class="menu-opciones_item"><a href="proximos_eventos_locales.html">Proximos Eventos locales</a></li>
+                    <li class="menu-opciones_item"><a href="feriados.html">Feriados</a></li>
+                    <li class="menu-opciones_item"><a href="juegos.html">Juegos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="index-noticias-catalogo-aside">
+            <div class="catalogo">
+                <div class="section">
+                    <h2>Noticias Políticas</h2>
+                    <a href="noticias_politicas.html"><img class="portada-noticia" src="img/leonor_ciberseguridad.png" alt="leonor"></a>
+                    <h3>La princesa de España es Tecla!</h3>
+                    <p>La princesa Asturias asistió a una charla de ciberseguridad</p>
+                    <a href="noticias_politicas.html"> Ver aquí </a>
+                </div>
+                <div class="section">
+                    <h2>Noticias Deportivas</h2>
+                    <a href="noticias_deportivas.html"><img class="portada-noticia" src="img/campeones.png" alt="campeones"></a>
+                    <h3>Messi levantó la copa del mundo</h3>
+                    <p>Argentina salió campeón en el mundial de Qatar!</p>
+                    <a href="noticias_deportivas.html"> Ver aquí </a>    
+                </div>    
+                <div class="section">
+                    <h2>Noticias Tecnologicas</h2>
+                    <a href="noticias_tecnologicas.html"><img class="portada-noticia" src="img/chat.png" alt="chatgpt"></a>
+                    <h3>¡Lanzamiento de CHATGPT! ¡El futuro está aquí!</h3>
+                    <p>Conversar con una Inteligencia Artificial a la alcance de tu mano</p>
+                    <a href="noticias_tecnologicas.html"> Ver aquí </a>    
+                </div>    
+                <div class="section">
+                    <h2>Noticias locales</h2>
+                    <a href="noticias_locales.html"><img class="portada_noticia" src="img/unicen_2022.png" alt="unicen"></a>
+                    <h3>Regreso a la presencialidad en Tandil</h3>
+                    <p>¡La universidad de Tandil abre sus puertas a los estudiantes con medidas seguras e inversiones en una posible modalidad híbrida</p>
+                    <a href="noticias_locales.html"> Ver aquí </a>    
+                </div>     
+            </div>
+            <aside>
+                <div class="animales">
+                    <h2>Animalitos perdidos y en Adopcion</h2>
+                    <a href="animales_perdidos_y_en_adopcion.html"><img class="portada-animal"src="img/malbec_adopcion.png" alt="perrito"></a>
+                    <h3>Enamorate de un amigo a 4 patas </h3>
+                    <p>La agrupación felina tandil junto a Adoptame Tandil y Mascotandil nos presentan a los peluditos del mes que buscan el amor de una familia</p>
+                    <a href="animales_perdidos_y_en_adopcion.html"> Ver aquí </a>    
+                </div>   
+            </aside>
+        </div>
+        <div class="separador">
+            <h2>Cuentos y capítulos de la semana</h2>
+        </div>
+        <div class="catalogo novelas-capitulo_del_dia">
+            <div class="section">
+                <h2>Ciencia Ficcion</h2>
+                    <a href="noticias_tecnologicas.html"><img class="portada-noticia" src="img/harry_potter.png" alt="capitulo-ciencia_ficcion"></a>
+                    <h3>¡Nuevo capitulo de Harry potter y la la piedra filosofal!</h3>
+                    <p>¿Cómo continuará la historia de nuestros héroes?</p>
+                    <a href="noticias_tecnologicas.html"> Ver aquí </a> 
+            </div>
+            <div class="section">
+                <h2>Romance</h2>
+                <a href="noticias_tecnologicas.html"><img class="portada-noticia" src="img/el_designio_del_angel.png" alt="capitulo-romance"></a>
+                <h3>¡Nuevo capitulo de: El Designio del ángel!</h3>
+                <p>¿Conseguirá Clara Gardner cumplir con su designio? ¿Angela Servino está ocultando algo?</p>
+                <a href="noticias_tecnologicas.html"> Ver aquí </a> 
+            </div>
+            <div class="section">
+                <h2>Policial</h2>
+                <a href="noticias_tecnologicas.html"><img class="portada-noticia" src="img/sherlock-holmes.png" alt="capitulo-policial"></a>
+                <h3>¡Nuevo capítulo de Sherlock Holmes!</h3>
+                <p>Descubre los últimos misterios a los que se enfrenta nuestro detective favorito!</p>
+                <a href="noticias_tecnologicas.html"> Ver aquí </a> 
+            </div>
+            <div class="section">
+                <h2>Terror</h2>
+                <a href="noticias_tecnologicas.html"><img class="portada-noticia" src="img/corazon_delator.png" alt="capitulo-terror"></a>
+                <h3>El corazon Delator</h3>
+                <p>La consciencia y el terror nos acompañan una vez más de la mano de nuestro querido escritor Edgar Allan Poe.</p>
+                <a href="noticias_tecnologicas.html"> Ver aquí </a> 
+            </div>
+        </div>
+        <div class="separador">
+            <h2>Artistas locales</h2>
+        </div>
+        <div class="catalogo artistas-locales">
+            <div class="section">
+                <h2>Grabado</h2>
+                <a href="noticias_tecnologicas.html"><img class="portada-noticia" src="img/grabado.png" alt="grabado-libertad"></a>
+                <h3>En búsqueda de la libertad</h3>
+                <p>La consciencia y el terror nos acompañan una vez más de la mano de nuestro querido escritor Edgar Allan Poe.</p>
+                <a href="noticias_tecnologicas.html"> Ver aquí </a> 
+            </div>
+            <div class="section">
+                <h2>Arte Digital</h2>
+                <a href="noticias_tecnologicas.html"><img class="portada-noticia" src="img/squirtle.png" alt="squirtle"></a>
+                <h3>El escuadrón Squirtle</h3>
+                <p>La consciencia y el terror nos acompañan una vez más de la mano de nuestro querido escritor Edgar Allan Poe.</p>
+                <a href="noticias_tecnologicas.html"> Ver aquí </a> 
+            </div>
+            <div class="section">
+                <h2>Murales</h2>
+                <a href="noticias_tecnologicas.html"><img class="portada-noticia" src="img/mural.png" alt="mural"></a>
+                <h3>¡Nuevo Mural friki de CEB!</h3>
+                <p>La consciencia y el terror nos acompañan una vez más de la mano de nuestro querido escritor Edgar Allan Poe.</p>
+                <a href="noticias_tecnologicas.html"> Ver aquí</a> 
+            </div>
+        </div>
+        <footer class="footer">
+            <h4>Diario Digital</h4>
+            <h4>Fecha: 2/4/2025</h4>
+        </footer>
+
+    </body>
+</html>
